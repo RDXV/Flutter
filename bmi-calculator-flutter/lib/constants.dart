@@ -10,7 +10,27 @@ const kNumberStyle = TextStyle(
   fontWeight: FontWeight.w900,
 );
 
-const kBottomContainerHeight = 50.0;
+const kTitleStyle = TextStyle(
+  fontSize: 40.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kColorTextStyle = TextStyle(
+  color: Color(0xFF24D876),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBmiTextStyle = TextStyle(
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultBodyText = TextStyle(
+  fontSize: 22.0,
+);
+
+const kBottomContainerHeight = 75.0;
 // k for constants
 const kActiveCardColour = Color(0xFF1D1E33);
 const kInactiveCardColour = Color(0xFF111328);
