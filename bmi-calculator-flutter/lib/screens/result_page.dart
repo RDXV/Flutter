@@ -54,15 +54,15 @@ class ResultPage extends StatelessWidget {
                     style: kResultBodyText,
                     textAlign: TextAlign.center,
                   ),
-                  BottomButton(
-                    calculate: 'RE-CALCULATE',
-                    tap: () {
-                      Navigator.pop(context);
-                    },
-                  ),
                 ],
               ),
             ),
+          ),
+          BottomButton(
+            calculate: 'RE-CALCULATE',
+            tap: () {
+              Navigator.pop(context);
+            },
           ),
         ],
       ),
