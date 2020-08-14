@@ -60,6 +60,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
           size: 100.0,
         ),
       ),
+
       //5
     );
   }

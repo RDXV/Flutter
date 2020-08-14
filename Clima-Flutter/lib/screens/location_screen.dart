@@ -35,8 +35,8 @@ class _LocationScreenState extends State<LocationScreen> {
     setState(() {
       if (weatherData == null) {
         temperature = 0;
-        weatherIcon = 'Error';
-        weatherMessage = 'Unable to fetch data from the servers';
+        weatherIcon = '';
+        weatherMessage = 'Unable to find the location';
         cityName = '';
         return;
         // Use the empty return statement to end the function and it can be used inside any function in dart
